@@ -3,8 +3,6 @@ import {SearchBar} from "./SearchBar";
 import EmployeeList from "./EmployeeList"
 
 
-
-
 const employees = [
     { id: 1, 
       name: "Bjorn Ironside",
@@ -46,3 +44,16 @@ const employees = [
       
     },
 ];
+
+function Homepage () {
+  return (
+    <div>
+      <Header/>
+      <SearchBar/>
+      <EmployeeList emp={employees}/>
+    </div>
+  );
+}
+
+
+ export default Homepage;
