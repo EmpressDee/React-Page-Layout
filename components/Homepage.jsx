@@ -1,8 +1,14 @@
+import {Header} from "./Header";
+import {SearchBar} from "./SearchBar";
+import EmployeeList from "./EmployeeList"
+
+
+
+
 const employees = [
     { id: 1, 
       name: "Bjorn Ironside",
-      title: "President and CEO",
-      image: ""
+      title: "President and CEO",      image: ""
     },
 
     { id: 2,
