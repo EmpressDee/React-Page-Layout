@@ -1,5 +1,10 @@
+import Homepage from "../components/Homepage"
+
 export default function App() {
   return (
-    <div>Welcome Amigos</div>
+    <div>
+      <Homepage/>
+      
+      </div>
   )
 }
