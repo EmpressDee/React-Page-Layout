@@ -1,5 +1,5 @@
 export default function Header() {
     return (
-        <h1>Employee Directory</h1>
+        <h1 className="header">Employee Directory</h1>
     )
-}
+}  
